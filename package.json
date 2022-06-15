@@ -1,0 +1,24 @@
+{
+  "name": "quetion1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start2": "node server2.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "ashish",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.4",
+    "dotenv": "^16.0.1",
+    "md5": "^2.3.0",
+    "mongodb": "^4.7.0",
+    "mongoose": "^6.3.6"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
+}
